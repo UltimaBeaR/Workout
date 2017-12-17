@@ -28,9 +28,13 @@ module.exports = (env) => {
                 'event-source-polyfill', 'isomorphic-fetch',
 
                 // react
-                'react', 'react-dom', 'react-router-dom', 'react-hot-loader'
+                'react', 'react-dom', 'react-router-dom', 'react-hot-loader', "prop-types",
+                
+                // redux
+                "redux", "react-redux", "redux-thunk",
 
-                // other vendor packages go here
+                // other
+                "immutability-helper", "axios"
             ]
         },
         output: {

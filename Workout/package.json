@@ -6,7 +6,13 @@
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-hot-loader": "3.1.3",
-    "react-router-dom": "4.2.2"
+    "react-router-dom": "4.2.2",
+    "prop-types": "15.6.0",
+    "redux": "3.7.2",
+    "react-redux": "5.0.6",
+    "redux-thunk": "2.2.0",
+    "immutability-helper": "2.6.2",
+    "axios": "0.17.1"
   },
   "devDependencies": {
     "aspnet-webpack": "2.0.1",
