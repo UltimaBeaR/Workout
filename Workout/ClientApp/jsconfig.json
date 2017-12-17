@@ -3,4 +3,7 @@
 // (only opened files will count in "find references" if this file is missing).
 // This is some kind of javascript project file for VS Code.
 {
+  "compilerOptions": {
+    "baseUrl": "./react-app/"
+  }
 }

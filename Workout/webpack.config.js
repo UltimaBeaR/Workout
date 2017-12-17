@@ -59,7 +59,10 @@ module.exports = (env) => {
     return [{
         stats: { modules: false },
         entry: { 'main': './ClientApp/boot.js' },
-        resolve: { extensions: ['.js', '.jsx'] },
+        resolve: {
+            extensions: ['.js', '.jsx'],
+            modules: [path.resolve('./ClientApp/react-app'), "node_modules"]
+        },
         output: {
             path: path.join(__dirname, bundleOutputDir),
             filename: '[name].js',

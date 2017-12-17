@@ -28,7 +28,7 @@ module.exports = (env) => {
                 'event-source-polyfill', 'isomorphic-fetch',
 
                 // react
-                'react', 'react-dom', 'react-router-dom'
+                'react', 'react-dom', 'react-router-dom', 'react-hot-loader'
 
                 // other vendor packages go here
             ]
