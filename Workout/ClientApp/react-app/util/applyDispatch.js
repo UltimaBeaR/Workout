@@ -6,10 +6,9 @@
 const applyDispatch = (dispatchFunction, actionCreators) => {
     const resultObject = {};
 
-    let val;
     let nestedObj;
     for (let key in actionCreators) {
-        val = actionCreators[key];
+        const val = actionCreators[key];
 
         if (val instanceof Function)
             resultObject[key] = (...args) => dispatchFunction(val(...args));
