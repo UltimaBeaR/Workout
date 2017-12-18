@@ -1,9 +1,10 @@
 ﻿import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-import Layout from 'containers/Layout/Layout';
+import Layout from 'components/layout/Layout/Layout';
 
 import rootReducer from 'store/root/root_reducer';
 
@@ -20,7 +21,9 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <Layout />
+                <BrowserRouter>
+                    <Layout />
+                </BrowserRouter>
             </Provider>
         );
     }

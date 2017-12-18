@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Test from 'components/Test/Test';
+import Test from 'components/ui/Test/Test';
 
 import applyDispatch from 'util/applyDispatch';
 import * as testActions from 'store/test/test_actions';
